@@ -12,3 +12,10 @@ RSpec::Core::RakeTask.new('all') do |t|
     'spec/*.rb'
   ]
 end 
+
+task :console do
+  require 'irb'
+  require 'irb/completion'
+  ARGV.clear
+  IRB.start
+end
