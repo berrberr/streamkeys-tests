@@ -16,6 +16,7 @@ end
 task :console do
   require 'irb'
   require 'irb/completion'
+  require 'selenium-webdriver'
   ARGV.clear
   IRB.start
 end
