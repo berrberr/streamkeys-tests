@@ -22,7 +22,7 @@ public class MainTest {
 		System.setProperty("webdriver.chrome.driver", "./lib/chromedriver");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("start-maximized");
-		options.addExtensions(new File("./lib/gshotkeys.crx"));
+		//options.addExtensions(new File("./lib/gshotkeys.crx"));
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		
         LoggingPreferences prefs = new LoggingPreferences();

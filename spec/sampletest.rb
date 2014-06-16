@@ -9,8 +9,9 @@ describe "Rspec-example" do
          "--load-extension=/Users/alexg/Documents/scripts/gshotkeys",
          "--log-level=0"],
         "binary" => "/Applications/Chrome-35/Google Chrome.app/Contents/MacOS/Google Chrome"
-      },
-      "loggingPref" => {"driver" => "ALL"})
+      }, "loggingPrefs" => {"browser" => "ALL"})
+    #-2147483648
+    #.manage.logs.get("browser")
     @driver = Selenium::WebDriver.for :chrome, desired_capabilities: caps
     @driver.navigate.to "http://www.grooveshark.com"
     @wait =  Selenium::WebDriver::Wait.new(:timeout => 10)
