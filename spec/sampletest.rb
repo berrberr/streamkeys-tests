@@ -37,30 +37,60 @@ describe "Grooveshark suite" do
     expect(true).to be true
   end
 
-  it "Verify play works" do
-    sleep 1
-    @driver.find_element(:css, "*")
-
-    @driver.action.key_down(:command).key_down(:shift).send_keys(2).perform
+  context "Verify playpause works" do
     sleep 1
 
-    @driver.action.key_down(:command).key_down(:shift).send_keys("2").perform
+    it "Verify play works" do
+      @driver.execute_script("
+          document.dispatchEvent(new CustomEvent('SKTEST_function', {
+            detail: 'play_pause'
+          }));
+      ")
+      # @driver.find_element(:css, "*")
 
-    # @driver.action.send_keys [:command, :shift, "3"]
-    # sleep 2
-    # @driver.action.send_keys :command, :shift, "2"
-    # @driver.action.send_keys :command, :shift, 1
+      # @driver.action.key_down(:alt).key_down(:shift).send_keys("P")
+      #               .key_up(:shift).key_up(:alt).perform
+      # sleep 1
+
+      # @driver.action.key_down(:alt).key_down(:shift).send_keys("p")
+      #               .key_up(:shift).key_up(:alt).perform
+
+      # @driver.action.send_keys [:command, :shift, "3"]
+      # sleep 2
+      # @driver.action.send_keys :command, :shift, "2"
+      # @driver.action.send_keys :command, :shift, 1
+    end
+
+    it "Verify pause works" do
+      @driver.execute_script("
+          document.dispatchEvent(new CustomEvent('SKTEST_function', {
+            detail: 'play_pause'
+          }));
+      ")
+    end
   end
 
-  # it "Verify pause works" do
-  # end
+  it "Verify next track works" do
+    @driver.execute_script("
+        document.dispatchEvent(new CustomEvent('SKTEST_function', {
+          detail: 'play_next'
+        }));
+    ")
+  end
 
-  # it "Verify next track works" do
-  # end
+  it "Verify previous track works" do
+    @driver.execute_script("
+        document.dispatchEvent(new CustomEvent('SKTEST_function', {
+          detail: 'play_prev'
+        }));
+    ")
+  end
 
-  # it "Verify previous track works" do
-  # end
-
-  # it "Verify mute works" do
-  # end
+  it "Verify mute works" do
+    @driver.execute_script("
+        document.dispatchEvent(new CustomEvent('SKTEST_function', {
+          detail: 'mute'
+        }));
+    ")
+  end
 end
