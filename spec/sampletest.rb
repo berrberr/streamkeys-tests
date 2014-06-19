@@ -1,6 +1,19 @@
 require 'selenium-webdriver'
 require 'rspec'
 
+def run_sk_action(action)
+  script = "document.dispatchEvent(new CustomEvent('SKTEST_function', {detail: '#{action}'}));"
+  @driver.execute_script(script)
+  return parse_log(action)
+end
+
+def parse_log(action)
+  success_check = "STREAMKEYS-INFO: " + action
+  fail_check = "STREAMKEYS-ERROR:"
+  logs = @driver.manage.logs.get("browser")
+  return (logs.any? { |lg| lg.message.include? success_check } and logs.all? { |lg| not lg.message.include? fail_check })
+end
+
 describe "Grooveshark suite" do
   before(:all) do
     caps = Selenium::WebDriver::Remote::Capabilities.chrome(
@@ -19,7 +32,6 @@ describe "Grooveshark suite" do
 
   after(:all) do
     puts @driver.manage.logs.get("browser")
-    puts @driver.manage.logs.get("driver")
     @driver.quit
   end
 
@@ -38,14 +50,8 @@ describe "Grooveshark suite" do
   end
 
   context "Verify playpause works" do
-    sleep 1
-
     it "Verify play works" do
-      @driver.execute_script("
-          document.dispatchEvent(new CustomEvent('SKTEST_function', {
-            detail: 'play_pause'
-          }));
-      ")
+      expect(run_sk_action('play_pause')).to be true
       # @driver.find_element(:css, "*")
 
       # @driver.action.key_down(:alt).key_down(:shift).send_keys("P")
@@ -62,35 +68,19 @@ describe "Grooveshark suite" do
     end
 
     it "Verify pause works" do
-      @driver.execute_script("
-          document.dispatchEvent(new CustomEvent('SKTEST_function', {
-            detail: 'play_pause'
-          }));
-      ")
+      expect(run_sk_action('play_pause')).to be true
     end
   end
 
   it "Verify next track works" do
-    @driver.execute_script("
-        document.dispatchEvent(new CustomEvent('SKTEST_function', {
-          detail: 'play_next'
-        }));
-    ")
+    expect(run_sk_action('play_next')).to be true
   end
 
   it "Verify previous track works" do
-    @driver.execute_script("
-        document.dispatchEvent(new CustomEvent('SKTEST_function', {
-          detail: 'play_prev'
-        }));
-    ")
+    expect(run_sk_action('play_prev')).to be true
   end
 
   it "Verify mute works" do
-    @driver.execute_script("
-        document.dispatchEvent(new CustomEvent('SKTEST_function', {
-          detail: 'mute'
-        }));
-    ")
+    expect(run_sk_action('mute')).to be true
   end
 end
