@@ -9,7 +9,7 @@ desc "Run all tests"
 RSpec::Core::RakeTask.new('all') do |t|
   t.rspec_opts = ["--format documentation", "--color"]
   t.pattern = [
-    'spec/*.rb'
+    'spec/sites/*.rb'
   ]
 end 
 
