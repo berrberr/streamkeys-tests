@@ -1,0 +1,264 @@
+E, [2014-06-24T21:44:03.837932 #8557] ERROR -- : 
+http://americanfootball.bandcamp.com/album/american-football
+ACTION: playPause
+LOGS:[]
+E, [2014-06-24T21:44:03.844724 #8557] ERROR -- : 
+http://americanfootball.bandcamp.com/album/american-football
+ACTION: playPause
+LOGS:[]
+E, [2014-06-24T21:44:03.850783 #8557] ERROR -- : 
+http://americanfootball.bandcamp.com/album/american-football
+ACTION: playNext
+LOGS:[]
+E, [2014-06-24T21:44:03.857134 #8557] ERROR -- : 
+http://americanfootball.bandcamp.com/album/american-football
+ACTION: playPrev
+LOGS:[]
+E, [2014-06-24T21:44:12.590528 #8557] ERROR -- : 
+http://grooveshark.com/
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:44:12.860219 #8557] ERROR -- : 
+http://grooveshark.com/
+ACTION: playPause
+LOGS:[#<Selenium::WebDriver::LogEntry:0x007f8eb408a2d8 @level="WARNING", @timestamp=1403660652796, @message="{\"message\":{\"column\":405969,\"executionContextId\":2,\"level\":\"info\",\"line\":1,\"parameters\":[{\"type\":\"string\",\"value\":\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\nJoin Our Team! \\nWe're hiring and you should apply: http://careers.grooveshark.com \\n\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\"}],\"source\":\"console-api\",\"stackTrace\":[{\"columnNumber\":405969,\"functionName\":\"n.Views.Application.Backbone.View.extend.showHiringMsg\",\"lineNumber\":1,\"scriptId\":\"51\",\"url\":\"http://static-a.gs-cdn.net/static/app_20140621013550.js\"},{\"columnNumber\":380231,\"functionName\":\"n.Views.Application.Backbone.View.extend.render\",\"lineNumber\":1,\"scriptId\":\"51\",\"url\":\"http://static-a.gs-cdn.net/static/app_20140621013550.js\"},{\"columnNumber\":1132804,\"functionName\":\"run\",\"lineNumber\":1,\"scriptId\":\"51\",\"url\":\"http://static-a.gs-cdn.net/static/app_20140621013550.js\"},{\"columnNumber\":1149910,\"functionName\":\"\",\"lineNumber\":1,\"scriptId\":\"51\",\"url\":\"http://static-a.gs-cdn.net/static/app_20140621013550.js\"},{\"columnNumber\":122562,\"functionName\":\"\",\"lineNumber\":1,\"scriptId\":\"50\",\"url\":\"http://static-a.gs-cdn.net/static/core_20140620214549.js\"},{\"columnNumber\":1150069,\"functionName\":\"\",\"lineNumber\":1,\"scriptId\":\"51\",\"url\":\"http://static-a.gs-cdn.net/static/app_20140621013550.js\"},{\"columnNumber\":46729,\"functionName\":\"f\",\"lineNumber\":1,\"scriptId\":\"50\",\"url\":\"http://static-a.gs-cdn.net/static/core_20140620214549.js\"},{\"columnNumber\":47579,\"functionName\":\"l.fireWith\",\"lineNumber\":1,\"scriptId\":\"50\",\"url\":\"http://static-a.gs-cdn.net/static/core_20140620214549.js\"},{\"columnNumber\":24406,\"functionName\":\"jQuery.extend.ready\",\"lineNumber\":1,\"scriptId\":\"50\",\"url\":\"http://static-a.gs-cdn.net/static/core_20140620214549.js\"},{\"columnNumber\":21737,\"functionName\":\"completed\",\"lineNumber\":1,\"scriptId\":\"50\",\"url\":\"http://static-a.gs-cdn.net/static/core_20140620214549.js\"}],\"text\":\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\nJoin Our Team! \\nWe're hiring and you should apply: http://careers.grooveshark.com \\n\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\",\"timestamp\":1403660652.70606,\"type\":\"log\",\"url\":\"http://static-a.gs-cdn.net/static/app_20140621013550.js\"}}">]
+E, [2014-06-24T21:44:13.069153 #8557] ERROR -- : 
+http://grooveshark.com/
+ACTION: playPause
+LOGS:[]
+E, [2014-06-24T21:44:13.206787 #8557] ERROR -- : 
+http://grooveshark.com/
+ACTION: playNext
+LOGS:[#<Selenium::WebDriver::LogEntry:0x007f8eb3d59988 @level="INFO", @timestamp=1403660652910, @message="http://static-a.gs-cdn.net/static/app_20140621013550.js 1:852480 [object Object]">]
+E, [2014-06-24T21:44:13.224901 #8557] ERROR -- : 
+http://grooveshark.com/
+ACTION: playPrev
+LOGS:[]
+E, [2014-06-24T21:44:13.338136 #8557] ERROR -- : 
+http://grooveshark.com/
+ACTION: mute
+LOGS:[#<Selenium::WebDriver::LogEntry:0x007f8eb5048d78 @level="INFO", @timestamp=1403660653252, @message="http://static-a.gs-cdn.net/static/app_20140621013550.js 1:980972 onZoomChange">]
+E, [2014-06-24T21:45:47.350991 #8591] ERROR -- : 
+http://grooveshark.com/
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:05.659369 #8591] ERROR -- : 
+http://www.iheart.com/
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:07.224241 #8591] ERROR -- : 
+http://www.iheart.com/
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:40.234639 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:40.441973 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:40.647493 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:40.853761 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:41.058850 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:41.263902 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:41.468991 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:41.674199 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:41.878004 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:42.083149 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:42.291235 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:42.496837 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:42.701499 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:42.907135 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:43.111896 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:43.317040 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:43.523090 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:43.727736 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:43.936207 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:44.140594 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:44.345334 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:44.549709 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:44.754244 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:44.959479 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:45.163434 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:45.370091 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:45.575836 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:45.780973 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:45.985788 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:46.191194 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:46.395753 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:46.600039 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:46.804214 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:47.009826 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:47.214947 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:47.418819 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:47.623830 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:47.828517 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:48.032370 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:48.236229 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:48.440585 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:48.645741 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:48.850825 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:49.055001 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:49.259606 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:49.465832 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:49.670023 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:49.874308 #8591] ERROR -- : 
+https://accounts.google.com/ServiceLogin?service=sj&passive=1209600&continue=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten%23%2Fnow&followup=https%3A%2F%2Fplay.google.com%2Fmusic%2Flisten
+ACTION: SK content script loaded
+LOGS:[]
+E, [2014-06-24T21:46:59.611784 #8591] ERROR -- : 
+https://soundcloud.com/explore/ambient
+ACTION: playPause
+LOGS:[#<Selenium::WebDriver::LogEntry:0x007fdeb4b883d8 @level="SEVERE", @timestamp=1403660819604, @message="chrome-extension://moebclcokoehgohkfjafbmgplceajnel/controllers/BaseController.js 3:21 STREAMKEYS-ERROR: Element not found for click.">]
+E, [2014-06-24T21:46:59.621527 #8591] ERROR -- : 
+https://soundcloud.com/explore/ambient
+ACTION: playPause
+LOGS:[#<Selenium::WebDriver::LogEntry:0x007fdeb4b58e08 @level="SEVERE", @timestamp=1403660819616, @message="chrome-extension://moebclcokoehgohkfjafbmgplceajnel/controllers/BaseController.js 3:21 STREAMKEYS-ERROR: Element not found for click.">]
+E, [2014-06-24T21:46:59.630849 #8591] ERROR -- : 
+https://soundcloud.com/explore/ambient
+ACTION: playNext
+LOGS:[#<Selenium::WebDriver::LogEntry:0x007fdeb4b214d0 @level="SEVERE", @timestamp=1403660819625, @message="chrome-extension://moebclcokoehgohkfjafbmgplceajnel/controllers/BaseController.js 3:21 STREAMKEYS-ERROR: Element not found for click.">]
+E, [2014-06-24T21:46:59.646770 #8591] ERROR -- : 
+https://soundcloud.com/explore/ambient
+ACTION: playPrev
+LOGS:[#<Selenium::WebDriver::LogEntry:0x007fdeb4aea688 @level="SEVERE", @timestamp=1403660819636, @message="chrome-extension://moebclcokoehgohkfjafbmgplceajnel/controllers/BaseController.js 3:21 STREAMKEYS-ERROR: Element not found for click.">]
+E, [2014-06-24T21:46:59.673646 #8591] ERROR -- : 
+https://soundcloud.com/explore/ambient
+ACTION: mute
+LOGS:[#<Selenium::WebDriver::LogEntry:0x007fdeb4aa1f50 @level="SEVERE", @timestamp=1403660819664, @message="chrome-extension://moebclcokoehgohkfjafbmgplceajnel/controllers/BaseController.js 3:21 STREAMKEYS-ERROR: Element not found for click.">]

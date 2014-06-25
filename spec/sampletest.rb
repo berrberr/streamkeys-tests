@@ -49,7 +49,7 @@ describe "Grooveshark suite" do
     expect(true).to be true
   end
 
-  context "Verify playpause works" do
+  context "Verify playPause works" do
     it "Verify play works" do
       expect(run_sk_action('play_pause')).to be true
       # @driver.find_element(:css, "*")
