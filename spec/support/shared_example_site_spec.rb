@@ -13,7 +13,7 @@ def parse_log(action)
   fail_check = "STREAMKEYS-ERROR:"
   logs = @driver.manage.logs.get("browser")
   error_found = (logs.any? { |lg| lg.message.include? success_check } and logs.all? { |lg| not lg.message.include? fail_check })
-  if(!error_found) then ErrLog.error("ACTION: #{action}\nLOGS:#{logs}", @driver.current_url)
+  if(!error_found) then ErrLog.error("ACTION: #{action}\nLOGS:#{logs}", @driver.current_url) end
 
   return error_found
 end
